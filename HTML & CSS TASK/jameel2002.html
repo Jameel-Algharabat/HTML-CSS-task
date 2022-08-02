@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: 200px auto 200px auto 200px auto;
+        grid-template: 300px;
+        gap: 10px;
+        background-color: #ffffff;
+        padding: 10px;
+        grid-gap: 5px;
+    }
+
+    .grid-container>div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 0px solid rgba(152, 152, 152, 0.63);
+        font-size: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    @media (max-width:1100px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px auto;
+            grid-template: 300px;
+            gap: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            grid-gap: 5px;
+
+
+        }
+
+    }
+
+    @media (max-width:750px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 200px 200px ;
+            grid-template: 300px;
+            gap: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            grid-gap: 5px;
+
+
+        }
+
+    }
+    @media (max-width:400px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 200px ;
+            grid-template: 300px;
+            gap: 10px;
+            background-color: #ffffff;
+            padding: 10px;
+            grid-gap: 5px;
+
+
+        }
+
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div><img src="8d3e1bc348ead12d37a8fc19d36d74c8.jpg" width="200px" height="300px"></div>
+        <div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nesciunt culpa quis maiores. Odit
+                dolore incidunt nobis!</p><br><br><br>
+            <img src="Account-User-PNG-Photo.png" width="50px" height="50px">
+        </div>
+        <div> <img src="4980ffe2545f8292fe62466238b9edac--blossom-trees-cherry-blossoms.jpg" width="200px"
+                height="300px"></div>
+        <div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nesciunt culpa quis maiores. Odit
+                dolore incidunt nobis!</p><br><br><br>
+            <img src="Account-User-PNG-Photo.png" width="50px" height="50px">
+        </div>
+        <div><img src="jt.jpg" width="200px" height="300px"></div>
+        <div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nesciunt culpa quis maiores. Odit
+                dolore incidunt nobis!</p><br><br><br>
+            <img src="Account-User-PNG-Photo.png" width="50px" height="50px">
+        </div>
+    </div>
+</body>
+
+</html>

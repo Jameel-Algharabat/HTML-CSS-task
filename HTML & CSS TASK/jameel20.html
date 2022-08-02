@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head {
+            display: grid;
+            grid-template-columns: 50px 175px auto 150px 150px 200px;
+            grid-column-gap: 50px;
+            grid-gap: 5px;
+            background-color: whitesmoke;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 15px;
+            
+
+        }
+
+        .item1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-gap: 5px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 0px 400px 0px 300px;
+            
+        }
+
+        .item2 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 5px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 0px 400px 0px 300px;
+        }
+
+        .h1 {
+            grid-row: 1 / 2;
+            border: 1px solid silver;
+            padding: 20px 50px 10px 50px;
+            margin-bottom: 100px;
+            width: 200px;
+            height: 450px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .h2 {
+            background-color: rgba(66, 151, 66, 0.941);
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            grid-gap: 5px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: white;
+
+        }
+
+        .h3 {
+            background-image: url(https://cdn.al-ain.com/images/2018/1/09/53-174532-health-food-color-choice_700x400.jpeg);
+            background-size: cover;
+            width: 700px;
+            height: 470px;
+            background-color: whitesmoke;
+            
+
+        }
+
+        .item3 {
+            display: grid;
+            column-gap: 50px;
+            grid-template-columns: auto auto auto auto;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            padding: 0px 500px 0px 300px;
+
+
+
+
+        }
+
+        .back1 {
+            background-image: url(https://khodar.com/uploads/products/89f362f3478a25f22f6c591ed0dbde50.jpg);
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+        }
+
+        .back2 {
+            background-image: url(https://images.heb.com/is/image/HEBGrocery/000133784?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0);
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+        }
+
+        .back3 {
+            background-image: url(https://www.americanfoodsgroup.com/img/cache/recipes/RecipeImages/3543/id/0-0-0f-cefd42ddee0172ffc6274bb8ff4e9ef7);
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+        }
+
+        .back4 {
+            background-image: url(https://barthfruit.ch/custom/images/contentBilder/big/orange.jpg);
+            background-size: cover;
+            width: 200px;
+            height: 200px;
+        }
+
+        #itemAA {
+            border: 0px solid black;
+            width: 50px;
+            margin-top: 150px;
+            margin-bottom: 50px;
+            margin-right: 100px;
+            margin-left: 80px;
+            height: 30px;
+            background-color: whitesmoke;
+            text-align: center;
+
+
+        }
+
+        #color {
+            color: green;
+        }
+
+        @media (max-width:1100px) {
+            .item1 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-gap: 5px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .item2 {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-gap: 5px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+                width: 100%;
+            }
+
+            .h3 {
+            background-image: url(https://cdn.al-ain.com/images/2018/1/09/53-174532-health-food-color-choice_700x400.jpeg);
+            background-size: cover;
+            width: 600px;
+            height: 470px;
+            background-color: whitesmoke;
+
+            }
+            .item3 {
+                display: grid;
+                grid-template-columns: auto auto;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+                width: 100%;
+
+
+
+
+            }
+        }
+
+        @media (max-width:600px) {
+            .head {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                background-color: whitesmoke;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 15px;
+            }
+
+            .item1 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-gap: 5px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+                width: 100%;
+            }
+
+            .item2 {
+                display: grid;
+                grid-template-columns: auto;
+                grid-gap: 5px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+                width: 100%;
+            }
+            .h3 {
+            background-image: url(https://cdn.al-ain.com/images/2018/1/09/53-174532-health-food-color-choice_700x400.jpeg);
+            background-size: cover;
+            width: 500px;
+            height: 470px;
+            background-color: whitesmoke;
+            width: 100%;
+            }
+
+            .item3 {
+                display: grid;
+                grid-template-columns: auto;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+                width: 100%;
+
+
+
+
+            }
+        }
+        @media (max-width:450px) {
+            .head {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto;
+                background-color: whitesmoke;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 15px;
+            }
+
+            .item1 {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-gap: 5px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .item2 {
+                display: grid;
+                grid-template-columns: auto;
+                grid-gap: 5px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+            }
+            .h3 {
+            background-image: url(https://cdn.al-ain.com/images/2018/1/09/53-174532-health-food-color-choice_700x400.jpeg);
+            background-size: cover;
+            width: 400px;
+            height: 470px;
+            background-color: whitesmoke;
+            }
+
+            .item3 {
+                display: grid;
+                grid-template-columns: auto;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                padding: 0px 0px 0px 0px;
+
+
+
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div>
+            <img src="gmail.png" width="30px" height="30px">
+        </div>
+        <div>
+            <p>jameel@gmail.com</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <div><img src="fa.png" width="25px" height="25px">
+            <img src="tw.png" width="25px" height="25px">
+            <img src="in.png" width="25px" height="25px">
+            <img src="pin.png" width="25px" height="25px">
+        </div>
+        <div><img src="am.jpg" width="40px" height="30px">
+            English </div>
+        <div>
+            <img src="Account-User-PNG-Photo.png" width="25px" height="25px">
+            Login
+        </div>
+    </div>
+    <br><br><br>
+    <div class="item1">
+        <div id="color">HOME</div>
+        <div>SHOP</div>
+        <div>PAGES</div>
+        <div>BLOG</div>
+        <div>CONTACT</div>
+    </div>
+    <br><br><br><br>
+    <div class="item2">
+        <div class="h1">
+            <div class="h2"> <img src="more.png" width="25px" height="25px"> Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+            <div>Lorem ipsum dolor</div><br>
+
+        </div>
+        <div class="h3">
+            <p id="color"> Lorem, ipsum.</p>
+            <h1>lorem</h1>
+            <H1>100% lorem</H1>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+
+    </div>
+    <div class="item3">
+        <div class="back1">
+            <p id="itemAA">lorem</p>
+        </div>
+        <div class="back2">
+            <p id="itemAA">lorem</p>
+        </div>
+        <div class="back3">
+            <p id="itemAA">lorem</p>
+        </div>
+        <div class="back4">
+            <p id="itemAA">lorem</p>
+        </div>
+    </div>
+</body>
+
+</html>

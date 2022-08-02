@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: rgba(113, 143, 109, 0.57);
+      ;
+    }
+
+    .grid-container {
+      background-color: rgb(124, 205, 228);
+      display: grid;
+      gap: 13px;
+      padding: 13px;
+      grid-template-columns: auto auto auto auto;
+      width: 350px;
+      height: 350px;
+      border-radius: 10px;
+      
+
+
+    }
+
+    .grid-container>div {
+      text-align: center;
+      font-size: 30px;
+
+
+    }
+
+    .item1 {
+      background-color: rgb(210, 255, 238);
+      grid-column: 1 / span 4;
+      height: 70px;
+      box-shadow: 0px 4px 0px 0px rgba(156, 156, 156, 0.656);
+
+    }
+
+    .item2 {
+      background-color: rgb(241, 240, 240);
+      box-shadow: 0px 4px 0px 0px rgba(156, 156, 156, 0.656);
+
+    }
+
+    .item3 {
+      background-color: rgb(237, 246, 116);
+      box-shadow: 0px 4px 0px 0px rgba(156, 156, 156, 0.656);
+    }
+
+    .item4 {
+      background-color: rgb(255, 113, 142);
+      box-shadow: 0px 4px 0px 0px rgba(156, 156, 156, 0.656);
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="item1"></div>
+    <div class="item2">1</div>
+    <div class="item2">2</div>
+    <div class="item2">3</div>
+    <div class="item3">+</div>
+    <div class="item2">4</div>
+    <div class="item2">5</div>
+    <div class="item2">6</div>
+    <div class="item3">-</div>
+    <div class="item2">7</div>
+    <div class="item2">8</div>
+    <div class="item2">9</div>
+    <div class="item3">*</div>
+    <div class="item4">C</div>
+    <div class="item2">0</div>
+    <div class="item2">=</div>
+    <div class="item3">/</div>
+  </div>
+</body>
+
+</html>

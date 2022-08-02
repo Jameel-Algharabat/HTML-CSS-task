@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        .item{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 15px ;
+            padding: 20px ;
+            text-align: center;
+           
+        }
+        .item > div{
+            background-color:white;
+            box-shadow: 2px 2px 2px 2px rgba(112, 128, 144, 0.315);
+            height: 450px;
+            width: 450px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .img{
+            border-radius: 50%;
+        }
+        .color{
+            color: blue;
+        }
+        @media (max-width:1450px){
+            .item{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            gap: 20px ;
+            padding: 15px ;
+            text-align: center;
+
+        }
+    }
+    @media (max-width:1100px){
+            .item{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px ;
+            padding: 15px ;
+            text-align: center;
+
+        }
+    }
+    @media (max-width:650px){
+            .item{
+            display: grid;
+            grid-template-columns: auto ;
+            gap: 20px ;
+            padding: 15px ;
+            text-align: center;
+
+        }
+    }
+    @media (max-width:450px){
+            .item{
+            display: grid;
+            grid-template-columns: auto ;
+            gap: 10px ;
+            padding: 20px ;
+            text-align: center;
+            
+        }
+        .item > div{
+            background-color:white;
+            box-shadow: 2px 2px 2px 2px rgba(112, 128, 144, 0.315);
+            height: 450px;
+            width: 325px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+   
+   
+    </style>
+</head>
+<body>
+    <div class="item">
+        <div> <img class="img" src="pro1.webp" width="100px" height="100px">
+            <h1 class="color">Samuel Plamer</h1>
+            <h4>Comapay agents house</h4>
+            <h4>real estate </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quibusdam accusamus minima quia </p>
+            <br><br><br>
+            <a href="https://www.google.jo/">View Profile</a>
+        </div>
+        <div><img  class="img" src="por2.jpg" width="100px" height="100px">
+            <h1 class="color">Nancy Markus</h1>
+            <h4>Comapay agents house</h4>
+            <h4>real estate </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quibusdam accusamus minima quia voluptatibus earum</p>
+            <br><br><br>
+            <a href="https://www.google.jo/">View Profile</a>
+        </div>
+        <div><img class="img"  src="pro3.png" width="100px" height="100px">
+            <h1 class="color">Martha Col</h1>
+            <h4>Comapay agents house</h4>
+            <h4>real estate </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quibusdam accusamus minima quia voluptatibus earum</p>
+            <br><br><br>
+            <a href="https://www.google.jo/">View Profile</a>
+        </div>
+        <div><img  class="img" src="pro1.webp" width="100px" height="100px">
+            <h1 class="color">Marry Jones</h1>
+            <h4>Comapay agents house</h4>
+            <h4>real estate </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quibusdam accusamus minima quia voluptatibus earum</p>
+            <br><br><br>
+            <a href="https://www.google.jo/">View Profile</a>
+        </div>
+    </div>
+</body>
+</html>
